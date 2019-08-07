@@ -62,6 +62,9 @@ An sample config file for training a model:
 The engine architecture:
 ![Engine](https://github.com/Borrk/DeepLearning-Engine/raw/master/doc/System-Architecture.png)
 
+Make sure that a IStep instance share its variables (objes) via its output_channel, so keep this in mind when designing a step. 
+![](https://github.com/Borrk/DeepLearning-Engine/raw/master/doc/step-share-objects.png)
+    
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
