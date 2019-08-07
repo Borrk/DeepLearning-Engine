@@ -16,16 +16,8 @@ class IStep(object):
     def __init__(self, output_channel, name=None ):
         self.output_channel = output_channel
         self.name = name
-        self.outputObjects = {}
-        self.input_objects = {}
 
     def set_output_channel(self, output_channel):
         self.output_channel = output_channel
-
-    def get_output_objects(self):
-        return self.outputObjects
-
-    def get_input_objects():
-        return self.input_objects
 
 

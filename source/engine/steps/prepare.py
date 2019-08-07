@@ -30,8 +30,6 @@ class step_prepare(IStep):
         self.labels = self.pick_labels( self, config_json['labels'] )
         self.n_classes = len(self.labels)
         
-        #self.outputObjects['n_classes']=self.n_classes
-
     def IDispose( self ):
         pass
 
