@@ -39,7 +39,7 @@ class ai_engine(object):
                 step.IParseConfig(step, config_json= step_options )
                 self.steps.append( step )
 
-                print( "step initilized: " + step.name )
+                print( "step initialized: " + step.name )
 
     def run(self):
         print("Running engine...")

@@ -51,43 +51,43 @@
     
     "steps" : [
         {
-            "name"            : "step_prepare",
+            "name"         : "step_prepare",
             "module"        : "engine.steps.prepare",
             "options"        : "dataset_in_one_path",
             
-            "active"        : true
+            "active"         : true
         },
     
         {
-            "name"            : "build_model_vgg16",
+            "name"         : "build_model_vgg16",
             "module"        : "engine.steps.build_pretrained_model",
             "options"        : "pretrained_model_options",
             
-            "active"        : true
+            "active"         : true
         },
         
         {
-            "name"            : "config_model_adam_categorical_crossentropy",
+            "name"         : "config_model_adam_categorical_crossentropy",
             "module"        : "engine.steps.config_model",
             "options"        : "model_compile_options",
             
-            "active"        : true
+            "active"         : true
         },
         
         {
-            "name"            : "dataset_prepare_one_folder",
+            "name"         : "dataset_prepare_one_folder",
             "module"        : "engine.steps.dataset_prepare",
             "options"        : "dataset_in_one_path",
             
-            "active"        : true
+            "active"         : true
         },
         
         {
-            "name"            : "train_model",
+            "name"         : "train_model",
             "module"        : "engine.steps.train_model",
             "options"        : "training_parameters",
             
-            "active"        : true
+            "active"         : true
         }
     ]
 }    
